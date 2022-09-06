@@ -1,0 +1,240 @@
+body {
+    background-image: linear-gradient(90deg, rgb(47, 182, 245),rgb(90, 230, 230));
+    font-family: 'Inter', sans-serif;
+    line-height: 1.3;
+    position: relative;
+}
+
+header {
+    height: 52px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(90deg,rgb(47, 182, 245), rgb(90, 230, 230));
+    color: rgb(73, 73, 73);
+    z-index: 1;
+}
+
+
+nav {
+    text-align: center;
+    position: relative;
+}
+nav li {
+    display: inline-block;
+    margin: 16px 10px;
+}
+nav li a {
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+    transition: 0.3s color;
+}
+.icone-menu {
+    display: none;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 1;
+    transition: 0.3s opacity;
+}
+
+@media screen and (min-width: 1041px) {
+    .pessoa, .avatar,
+    width: auto; 
+}
+
+
+section {
+    width: 1020px;
+    height: 480px;
+    margin: 0 auto;
+    padding-top: 48px;
+    position: relative;
+    color: rgb(73, 73, 73);
+}
+.pessoa {
+    display: inline-block;
+}
+
+.avatar {
+    position: absolute;
+    width: 300px;
+    aspect-ratio: 1;
+    background-image: url(bruna.jpg);
+    background-position: center;
+    background-size: cover;
+    right: 80px;
+    top: 90px;
+    border-radius: 50%;
+    border: rgb(47, 182, 245) 16px solid;
+}
+.midias {
+    position: absolute;
+    right: 0;
+    top: 170px;
+}
+
+div {
+    display: block;
+}
+.icones-informacoes {
+    width: 40px;
+}
+
+.pessoa h1 {
+    font-size: 72px;
+    margin-top: 64px;
+}
+
+.pessoa h2 {
+    margin: 16px 0;
+    font-weight: 700;
+}
+.contato {
+    position: relative;
+    margin-top: 4px;
+}
+.contato p {
+    position: absolute;
+    top: 10px;
+    left: 48px;
+}
+main {
+    padding: 16px 0;
+}
+main {
+    background: rgb(169, 233, 238);
+    padding: 48px 0;
+    color: rgb(73, 73, 73);
+}
+main {
+    display: block;
+}
+.sobre-mim {
+    position: relative;
+}
+main div {
+    width: 340px;
+    padding: 8px;
+}
+main div {
+    width: 1020px;
+    margin: 0 auto;
+}
+.margem-caixas {
+    margin: 0 0 2.3% 0;
+}
+.foto-sobre-mim {
+    width: 100%;
+    opacity: 0.90;
+    position: relative;
+}
+.margem-caixas {
+    margin: 2.3%;
+}
+.foto-sobre-mim {
+    width: 400px;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 1px 1px 16px rgb(47, 182, 245);
+}
+.texto-sobre-mim {
+    display: block;
+    width: 300px;
+    right: 0;
+    left: 415   px;
+    top: 0;
+    margin: 0 auto;
+}
+.texto-sobre-mim {
+    display: inline-block;
+    width: 480px;
+    vertical-align: top;
+    position: absolute;
+    right: 0;
+    top: 48px;
+}
+
+.titulo {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.titulo {
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 48px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.margem-caixas {
+    margin: 0 0 2.3% 0;
+}
+.background-texto {
+    font-size: 13px;
+    width: 100%;
+    height: 88px;
+}
+.background-texto {
+    background-color: rgb(47, 182, 245);
+    box-shadow: 1px 1px 16 rgb(47, 182, 245);
+    color: rgb(73, 73, 73);
+    padding: 18px;
+    display: inline-block;
+    border-radius: 8px;
+    width: 45%;
+    box-sizing: border-box;
+    vertical-align: top;
+    height: 100px;
+}
+footer {
+    padding: 16px 0 24px 0;
+}
+footer, a {
+    color: rgb(47, 182, 245),rgb(90, 230, 230);
+}
+footer {
+    height: 180px;
+    padding-top: 32px;
+    text-align: center;
+}
+.footer-informacoes {
+    width: 200px;
+}
+.footer-informacoes {
+    width: 1020px;
+    margin: 0 auto 52px;
+}
+.icones-informacoes {
+    width: 32px;
+}
+.fale-comigo {
+    color: rgb(73, 73, 73);
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+p {
+    color: rgb(73, 73, 73);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+script {
+    display: none;
+}
