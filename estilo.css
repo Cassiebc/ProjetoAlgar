@@ -38,10 +38,6 @@ nav li a {
     transition: 0.3s opacity;
 }
 
-/* tinha um media screen aqui, sempre colocamos lá pro final, para não correr o risco de quebrar outras coisas*/
-
-
-
 section {
     width: 1020px;
     height: 480px;
@@ -94,23 +90,20 @@ div {
 }
 .contato p {
     position: absolute;
-    top: -10px; /* AQUI EU ALTEREI O VALOR PARA -10PX AÍ p SUBIU UM POUQUINHO PARA CIMA*/
+    top: -10px; 
     left: 48px;
 }
 main {
     padding: 16px 0;
-}
-main { /* TEM DUAS MAIN, PODE PEGAR ESSAS PROPRIEDADES E COLOCAR TUDO NA DE CIMA, E APAGAR ESSA */
     background: rgb(169, 233, 238);
     padding: 48px 0;
     color: rgb(73, 73, 73);
-}
-main { /*OPA, 3 MAIN 😅, O IDEAL É CHAMARMOS APENAS UMA VEZ A TAG 😉*/
     display: block;
 }
+
 .sobre-mim {
-  width: 1020px; /* AQUI COLOQUEI WIDTH */
-  margin: 0 auto; /* E AI CENTRALIZEI COM MARGIN AUTOMATICA, COMO NA SECTION*/
+  width: 1020px; 
+  margin: 0 auto; 
   position: relative;
 }
 main div {
@@ -236,15 +229,8 @@ p {
     margin-inline-end: 0px;
 }
 
-/*comentei esse media screen aqui e coloquei outro mais abaixo*/
-/* @media screen and (min-width: 1041px) {
-    .pessoa, .avatar,
-    width: auto; 
-} */
-
-/* deixei o media com uma largura para uma tela com no máximo 500 pixels, que está um valor ok para celular*/
 @media screen and (max-width: 500px) {
-  /* aí chamei várias coisas aqui dentro desse media e diminui a largura (width) */
+  
   header {
     width: 480px;
   }
@@ -252,20 +238,20 @@ p {
   section {
     width: 450px;
     padding: 10px;
-    height: 360px; /* aqui diminui a altura também porque estava ficando um espação vazio para baixo*/
+    height: 360px; 
   }
   
   .pessoa h1 {
     font-size: 28px;
   }
-  /* diminui o tamnho da fonte e o tamanho da imagem para caber tudo numa tela de até 500px*/
+  
   .avatar {
     width: 150px;
     right: 0px;
   }
 
   .foto-sobre-mim {
-    opacity: 0.2; /* deixei a imagem quase transparente para por o texto em cima, mas se quiser pode apagar a imagem, pode colocar um display none por exemplo*/
+    opacity: 0.2; 
   }
 
   .texto-sobre-mim {
@@ -284,7 +270,7 @@ p {
   }
 
   footer, .footer-informacoes {
-    width: 480px; /* footer também só diminuir a largura para tudo se enxcaixar numa tela de celular */
+    width: 480px; 
   }
 
   
